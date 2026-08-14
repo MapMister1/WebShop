@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Product placeholder">
+  <rect width="800" height="1000" fill="#e8e4dc"/>
+  <path d="M270 505c54-88 206-88 260 0" fill="none" stroke="#918a7f" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="400" cy="520" r="54" fill="none" stroke="#918a7f" stroke-width="18"/>
+  <text x="400" y="690" text-anchor="middle" fill="#6d665d" font-family="Arial, sans-serif" font-size="34">Replace product image</text>
+</svg>

@@ -1,0 +1,25 @@
+name = "atelier-dropship-store"
+compatibility_date = "2026-08-01"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "webshop"
+database_id = "replace-with-production-d1-database-id"
+migrations_dir = "db/migrations"
+
+[[r2_buckets]]
+binding = "PRODUCT_IMAGES"
+bucket_name = "atelier-product-images"
+
+[vars]
+PUBLIC_STORE_NAME = "Atelier Supply"
+PUBLIC_SITE_URL = "https://example.com"
+SHIPPING_COUNTRIES = "US,CA,GB,AU,NZ,DE,FR,NL,BE,ES,IT,AT,CZ,PL,SE,DK,IE"
+STRIPE_CURRENCY = "usd"
+
+# Set secrets with `wrangler pages secret put ...`.
+# STRIPE_SECRET_KEY
+# STRIPE_WEBHOOK_SECRET
+# ADMIN_SESSION_SECRET
+# ADMIN_BOOTSTRAP_KEY
