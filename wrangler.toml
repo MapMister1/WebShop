@@ -5,12 +5,8 @@ pages_build_output_dir = "dist"
 [[d1_databases]]
 binding = "DB"
 database_name = "webshop"
-database_id = "replace-with-production-d1-database-id"
+database_id = "30396689-55c2-4919-ac58-98f18157b05c"
 migrations_dir = "db/migrations"
-
-[[r2_buckets]]
-binding = "PRODUCT_IMAGES"
-bucket_name = "atelier-product-images"
 
 [vars]
 PUBLIC_STORE_NAME = "Atelier Supply"
