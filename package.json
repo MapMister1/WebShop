@@ -36,7 +36,7 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250806.0",
+    "@cloudflare/workers-types": "^5.20260814.1",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^4.4.1",
